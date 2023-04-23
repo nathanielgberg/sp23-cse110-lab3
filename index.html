@@ -1,8 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title> CSE 110 meeting minutes </title>
+    <title>My Webpage</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://docs.google.com/drawings/d/e/2PACX-1vR1tzE15wk_HjARc7VZQmjr-RLq3u1iDlzJ7Yv1prRU0omd_vJ9QsBcwzN_tZMkTcc_bF0nLy90DFcY/pub?w=64&amp;h=64">
   </head>
   <body>
-  </body>
-</html>
+    <header>
+      <h1>Welcome to my Webpage</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section>
+  <h2>Team 9 Meeting</h2>
+  <p>Date: 4/16/23</p>
+  <ul>
+    <li>Discuss project progress</li>
+    <li>Brainstorm new ideas</li>
+    <li>Assign tasks for next meeting</li>
+  </ul>
+  
+  <details>
+    <summary>Click here to see brainstorming ideas</summary>
+    <ul>
+      <li>Implement new feature X</li>
+      <li>Refactor codebase for better performance</li>
+      <li>Create more engaging user interface</li>
+    </ul>
+  </details>
+</section>
+
+<fieldset>
+  <legend>Enter your details</legend>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="options">Select an option:</label>
+    <select id="options" name="options">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br>
+
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description"></textarea><br>
+
+    <label for="checkbox">Checkbox:</label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br>
+
+    <label for="radio1">Radio 1:</label>
+    <input type="radio" id="radio1" name="radio" value="radio1">
+    <label for="radio2">Radio 2:</label>
+    <input type="radio" id="radio2" name="radio" value="radio2"><br>
+
+    <label for="datalist">Select a color:</label>
+    <input list="colors" id="datalist" name="colors">
+    <datalist id="colors">
+      <option value="Red">
+      <option value="Green">
+      <option value="Blue">
+      <option value="Yellow">
+    </datalist><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</fieldset>
+
+<!-- Image -->
+<img src="https://devblogs.microsoft.com/commandline
