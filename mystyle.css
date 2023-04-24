@@ -7,3 +7,15 @@ h1 {
   margin-left: 20px;
 }
 
+p {
+  color: navy;
+  text-decoration: underline;
+  text-align: center;
+}
+
+div.container {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
