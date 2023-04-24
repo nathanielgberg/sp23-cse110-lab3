@@ -23,8 +23,6 @@ Date: 4/32/2023
 - [ ] Blocker 3
 
 ## Additional notes
-- [ ] Note 1
-- [ ] Note 2
-- [ ] Note 3
+*
 
 We will have weekly Sunday Meetings at 2:00 pm every week. Please let us know if you can't make it.
