@@ -3,9 +3,9 @@
 Date: 4/32/2023
 
 ## Attendees for Group 9
-- [ ] Name 1
-- [ ] Name 2
-- [ ] Name 3
+- Name 1
+- Name 2
+- Name 3
 
 ## What did you work on yesterday?
 - [ ] Task 1
