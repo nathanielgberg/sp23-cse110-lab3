@@ -19,3 +19,54 @@ div.container {
   padding: 10px;
   margin: 10px;
 }
+img {
+  height: 200px;
+  width: auto; 
+  max-width: 100%; 
+  min-width: 50px;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+a:hover {
+  color: red;
+}
+
+button:active {
+  background-color: green;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
