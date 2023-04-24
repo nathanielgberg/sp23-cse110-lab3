@@ -1,9 +1,9 @@
 /* Color - apply colors to your HTML elements */
 body {
-  background-color: #f2f2f2; /* Set background color of body to light gray */
-  color: #333; /* Set text color to dark gray */
+  background-color: lightblue;
 }
 
 h1 {
-  color: rgb(120, 100, 80); /* Set color of headings to a brownish tone */
+  color: navy;
+  margin-left: 20px;
 }
