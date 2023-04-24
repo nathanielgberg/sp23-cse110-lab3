@@ -24,5 +24,6 @@ Date: 4/32/2023
 
 ## Additional notes
 *
+*
 
 We will have weekly Sunday Meetings at 2:00 pm every week. Please let us know if you can't make it.
