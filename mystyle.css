@@ -2,8 +2,16 @@
 body {
   background-color: lightblue;
 }
-
 h1 {
   color: navy;
   margin-left: 20px;
+}
+h2 {
+  color: rgb(120, 100, 80);
+}
+a {
+  color: #0077cc; /* Set color of links to a bright blue */
+}
+h3 {
+  color: hsl(120, 60%, 70%);
 }
